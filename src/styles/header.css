@@ -1,0 +1,29 @@
+.content-head {
+  background-color: #293133;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.text-head-content-first {
+  color: #c6cfd2;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 100px;
+}
+
+.text-head-content-second {
+  font-size: 20px;
+  margin: 20px;
+  text-decoration: none;
+  color: #c6cfd2;
+  border: 1px solid transparent;
+  padding: 5px;
+}
+
+.text-head-content-second:hover {
+  opacity: 0.5;
+}

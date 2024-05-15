@@ -1,0 +1,17 @@
+.content-main {
+  height: 721px;
+  width: 100%;
+  margin: 0, auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-carousel {
+  width: 900px;
+}
+
+p {
+  color: chartreuse;
+  font-size: 25px;
+}
