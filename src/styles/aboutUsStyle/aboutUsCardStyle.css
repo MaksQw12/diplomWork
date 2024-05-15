@@ -1,0 +1,47 @@
+.about-card-element {
+  background-color: #5b6571;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 350px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.title-text {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.about-buton {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border-color: white;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 1s;
+}
+
+.about-buton:hover {
+  transition-duration: 1s;
+  border-color: gray;
+}
+
+.about-text {
+  background-color: #5b6571;
+  color: white;
+  font-size: 20px;
+  min-width: 300px;
+  max-width: 800px;
+  border-radius: 5px;
+  padding: 10px;
+}
