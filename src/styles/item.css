@@ -1,0 +1,10 @@
+.content-body-item {
+  height: 1400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-body-item-centre {
+  background-color: yellow;
+  height: 100%;
+}

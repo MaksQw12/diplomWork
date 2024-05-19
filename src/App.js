@@ -4,16 +4,17 @@ import AboutPage from './pages/AboutUs';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
+import Item from './pages/Item';
 import { observer } from 'mobx-react-lite';
 
 function App() {
   return (
-    <div className="content">
+    <div className="wrapper">
       <Header />
-      <div className="content-body">
+      <div className="wrapper-body">
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/items" />
+          <Route path="/items" element={<Item />} />
           <Route path="/cart" />
           <Route path="/profile" />
           <Route path="/about" element={<AboutPage />} />

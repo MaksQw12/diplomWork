@@ -17,7 +17,7 @@ const Main = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <p>Скидки до 25%</p>
+            <h2 className="text-h2">Скидки до 25%</h2>
             <p>Каждую пятницу</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -30,7 +30,7 @@ const Main = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <p>Весенняя одежда</p>
+            <h2 className="text-h2">Весенняя одежда</h2>
             <p>Новый весенний look</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -43,7 +43,7 @@ const Main = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <p>Работаем без выходных</p>
+            <h2 className="text-h2">Работаем без выходных</h2>
             <p>С понедельника по пятницу с 8 до 22</p>
           </Carousel.Caption>
         </Carousel.Item>

@@ -1,7 +1,5 @@
 .content-main {
-  height: 721px;
-  width: 100%;
-  margin: 0, auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,4 +12,9 @@
 p {
   color: chartreuse;
   font-size: 25px;
+}
+
+.text-h2 {
+  color: #77dde7;
+  font-weight: bold;
 }
